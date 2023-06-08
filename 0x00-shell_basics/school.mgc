@@ -1,2 +1,3 @@
 #!/bin/bash
--k -m 0 string SCHOOL School data file
+file -k -m <(echo '0 string SCHOOL School data file') myfile.dat
+
